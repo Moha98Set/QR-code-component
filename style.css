@@ -1,0 +1,34 @@
+body{
+    background: #d5e1ef;
+    text-align: center;
+}
+h1{
+    font-size: 1.9rem;
+    font-family: 'Lato';
+    font-weight: 900;
+}
+p{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.2rem;
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: rgba(0, 0, 0, .4);
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    height: 625px;
+    width:400px;
+    background: white;
+    border-radius: 20px;
+    padding:1%;
+}
+.qr img{
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
